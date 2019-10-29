@@ -1,0 +1,11 @@
+1. Bit masking is very fast as compared to any STL container so always give it preference.
+2. Any problem related to product or divison in an array of integers can be thought in terms of square root complexity.Try chef and max star value for this and also hackerearth army power one where we need to find wether 2 elements product is equal to a given number.
+3. Any problem related to xor should be approached keeping in mind two equal numbers have xor zero.
+4. Whenever there is a question regarding absolute modulus try to compute things from a once calculated value as in codeforces special permutation.
+5. Things like a[a.size()-1] can be very dreadful keep in mind all corner cases.
+6. When you found sol with 2D matrix but constraints do not permit use try to convert into multtiple 1D array as in Operations in matrix codechef.
+7. D-OR or D-XOR Best questions to think in terms of bits maximizng xor/or when a range is given.
+8. In top notch implementation of seg Tree query result in [l,r) and modify function accepts zero based index.
+9. Whenever we need to implement seg tree for for array where alternate operations are applied try to think in terms of distance from the vertices (to know which operation is to apply) like in xenia and bit operations in codeforces.
+10. Don't skip taking input even though it is not required it would mess up later tes cases.
+
