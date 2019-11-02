@@ -15,3 +15,4 @@
     STEP 2: Avoid reduntant and read oly arguments.(Minimize arguments).
     STEP 3: Cache it , becomes Memoization.
     STEP 4: function becomes the state and its arg as state arguments and we can deduce bottom up also.
+15. Any integer that is divisble by gcd(a,b) can be written in the form of ax+by.
