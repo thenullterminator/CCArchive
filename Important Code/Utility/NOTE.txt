@@ -12,7 +12,16 @@
 12. For segTree the only two things we need to figure out is struct node and combine function.
 13. For DP the only two things we need to figure out is state and recursive formula.
 14. STEP 1: Write a backtrack function or a function which tries all possible cases (generally exponential complexity).
-    STEP 2: Avoid reduntant and read oly arguments.(Minimize arguments).
+    STEP 2: Avoid reduntant and read only arguments.(Minimize arguments).
     STEP 3: Cache it , becomes Memoization.
     STEP 4: function becomes the state and its arg as state arguments and we can deduce bottom up also.
 15. Any integer that is divisble by gcd(a,b) can be written in the form of ax+by.
+16. Avoid passing strings and heavy data to functions instead declare it global.
+17. Dynamic Programming can be considered with both respect time and space. Time is Optimized by Memoization.
+18. A normal 5000x5000 table would occupy around 100MB. So if questions says Memory limit of around 16MB it is asking for memory optimization in addition to time optimization.
+19. Memory optimization can only be applied on bottom up (iterative) version.
+20. https://www.commonlounge.com/discussion/e09892b9b8e14ac1be20aeeabc726d46/main refer this for the same.
+21. When converting recursive to bottom up (iterative) observe one of the states and its dependence on others i.e, it depends on lower states or higher states. Best example is palindrome on common lounge.
+22. Observe the nature of transition i.e, one state depends on which other states and store only those many of them thus optimizing memory. In some cases you may also need to change some parameters to obtain the same.
+23. Actually this one has strict Time limit, so all solution with 2D arrays get TLE because accessing elements in very big arrays is slower than usual.
+24. For problems related to games try finding out answer for all N from lower N and you would find a pattern like Divisor Game on leetcode.
